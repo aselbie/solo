@@ -1,0 +1,1 @@
+Contests = new Meteor.Collection('contests');

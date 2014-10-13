@@ -1,0 +1,11 @@
+<template name="contestList">
+  <ul>
+    {{#each contests}}
+      {{> contestListItem}}
+    {{/each}}
+  </ul>
+</template>
+
+<template name="contestListItem">
+  <li>Who would {{goal}} if {{contestantA}} and {{contestantB}} faced off in a {{task}}?</li>
+</template>
