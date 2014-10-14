@@ -9,4 +9,6 @@ jquery
 matthew:foundation5-sass
 iron:router
 sacha:spin
-
+accounts-password
+splendido:accounts-templates-foundation
+splendido:accounts-templates-core

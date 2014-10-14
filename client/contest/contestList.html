@@ -1,4 +1,5 @@
 <template name="contestList">
+  <h1>Arguments for the Ages</h1>
   <ul>
     {{#each contests}}
       {{> contestListItem}}
@@ -7,5 +8,5 @@
 </template>
 
 <template name="contestListItem">
-  <li><a href="{{pathFor 'contestPage'}}">Who would {{goal}} if {{contestantA}} and {{contestantB}} faced off in a {{task}}?</a></li>
+  <li><a href="{{pathFor 'contestPage'}}">Who would {{goal}} if {{contestantA}} and {{contestantB}} faced off in {{task}}?</a></li>
 </template>
