@@ -17,11 +17,9 @@ Template.contestPage.helpers({
 
 Template.contestPage.events({
   'click .voteContestantA': function() {
-    this.votes.a++;
-    Contests.update(this._id, this);
+    Contests.update(this._id, {$inc: {votesForA: 1}});
   },
   'click .voteContestantB': function() {
-    this.votes.b++;
-    Contests.update(this._id, this);
+    Contests.update(this._id, {$inc: {votesForB: 1}});
   }
 })
