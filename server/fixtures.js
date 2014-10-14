@@ -21,6 +21,6 @@ if (Contests.find().count() === 0) {
     goal: 'would be more confused',
     contestantA: 'Taylor Lautner',
     contestantB: 'this Alpaca',
-    task: 'met in romantic moonlight'
+    task: 'a romantic moonlight rendezvouz'
   });
 }
